@@ -1,0 +1,804 @@
+id,text
+bio_graph_0000135,"Inside a closed nutrient basin, there are 6 species labeled A, B, C, D, E, and F.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- E draws nutrients from C.
+- F draws nutrients from E.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000216,"In a closed microbial suppression experiment, there are 7 strains labeled A, B, C, D, E, F, and G. researchers recorded two directed interaction types: stimulation and suppression. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity stimulates exactly 3 distinct others; each entity suppresses exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 1 incoming inhibition links; no pair of entities may mutually activate one another; if X suppresses Y, then Y stimulates X is forbidden. Observations additionally show that A stimulates B; B stimulates C; C suppresses A. Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000222,"Inside a sealed microbial signaling chamber, there are 7 species labeled A, B, C, D, E, F, and G. researchers observed two kinds of directed adult-phase signaling: activation and inhibition. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 3 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 2 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden. Observations additionally show that A activates B; B activates C; C inhibits A. Determine whether a valid full interaction network exists. If it does, provide one witness. Otherwise, identify the contradiction."
+bio_graph_0000203,"Within a lab-designed signaling network, there are 6 proteins labeled A, B, C, D, E, and F.
+the system contains both directed activation and directed inhibition effects.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity activates exactly 1 distinct others.
+- each entity inhibits exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 1 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X inhibits Y, then Y activates X is forbidden.
+- the combined interaction graph must be strongly connected.
+- every entity must lie on at least one directed cycle in the combined graph.
+- no directed 3-cycle may consist entirely of activation edges.
+
+Observed interactions:
+- A inhibits B.
+- B activates A.
+- A activates C.
+
+Is there a complete interaction system satisfying all rules and observations? If yes, construct one; if no, explain why not."
+bio_graph_0000206,"Within a laboratory-grown microbial community, there are 8 species labeled A, B, C, D, E, F, G, and H. adult-phase interactions are of two directed kinds: activation and inhibition. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 2 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 2 incoming activation links; each entity receives exactly 1 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden; the combined interaction graph must be strongly connected; every entity must lie on at least one directed cycle in the combined graph; no directed 3-cycle may consist entirely of activation edges. Observations additionally show that H activates B; D activates F; D inhibits A; C activates D. Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000220,"Inside a closed regulatory experiment, there are 8 proteins labeled A, B, C, D, E, F, G, and H.
+the system contains both directed activation and directed inhibition effects.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity activates exactly 3 distinct others.
+- each entity inhibits exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 1 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X inhibits Y, then Y activates X is forbidden.
+
+Observed interactions:
+- A activates B.
+- B activates C.
+- C inhibits A.
+
+Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000189,"In a sealed marsh habitat, there are 11 species labeled A, B, C, D, E, F, G, H, I, J, and K.
+biologists recorded a regular feeding network among the adult species.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+- no directed 3-cycle may appear.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on A.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000192,"On a remote volcanic island, there are 6 species labeled A, B, C, D, E, and F.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- B preys on C.
+- F preys on A.
+- C does not prey on B.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000232,"On a remote volcanic island, there are 5 species labeled A, B, C, D, and E.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on E.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction. Also determine whether the completion is unique."
+bio_graph_0000187,"Within a closed reef ecosystem, there are 7 species labeled A, B, C, D, E, F, and G. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle; no directed 3-cycle may appear. Field observations additionally record that A preys on B; B preys on C; C preys on A. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000218,"Inside a sealed toxin-mediated colony, there are 10 strains labeled A, B, C, D, E, F, G, H, I, and J. the colony exhibits both directed stimulation and directed suppression relations. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity stimulates exactly 3 distinct others; each entity suppresses exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 1 incoming inhibition links; no pair of entities may mutually activate one another; if X suppresses Y, then Y stimulates X is forbidden. Observations additionally show that A stimulates B; B stimulates C; C suppresses A. Is there a complete interaction system satisfying all rules and observations? If yes, construct one; if no, explain why not."
+bio_graph_0000191,"On an isolated island, there are 8 species labeled A, B, C, D, E, F, G, and H. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle; no directed 3-cycle may appear. Field observations additionally record that A preys on B; B preys on C; C preys on A. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000142,"In a long-observed closed habitat, there are 8 organisms labeled A, B, C, D, E, F, G, and H.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 2 distinct others.
+- each organism receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- G extracts nutrients from C.
+- H extracts nutrients from G.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000185,"Within a closed reef ecosystem, there are 9 species labeled A, B, C, D, E, F, G, H, and I. the adult species participate in a stable predation network. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that B preys on D; I preys on A; B preys on C; E preys on F. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000231,"In a sealed marsh habitat, there are 6 species labeled A, B, C, D, E, and F. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other. Field observations additionally record that A preys on B; B preys on C. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not. Decide whether the completion is unique or whether multiple valid completions exist."
+bio_graph_0000208,"Within a laboratory toxin-signaling system, there are 10 strains labeled A, B, C, D, E, F, G, H, I, and J.
+researchers recorded two directed interaction types: stimulation and suppression.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity stimulates exactly 1 distinct others.
+- each entity suppresses exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 1 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X suppresses Y, then Y stimulates X is forbidden.
+- the combined interaction graph must be strongly connected.
+- every entity must lie on at least one directed cycle in the combined graph.
+- no directed 3-cycle may consist entirely of activation edges.
+
+Observed interactions:
+- A suppresses B.
+- B stimulates A.
+- A stimulates C.
+
+Determine whether a valid full interaction network exists. If it does, provide one witness. Otherwise, identify the contradiction."
+bio_graph_0000221,"Within a lab-designed signaling network, there are 8 proteins labeled A, B, C, D, E, F, G, and H. biologists model the system using two directed interaction types: activation and inhibition. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 2 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 1 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden. Observations additionally show that A activates B; B activates C; C inhibits A. Is there a complete interaction system satisfying all rules and observations? If yes, construct one; if no, explain why not."
+bio_graph_0000193,"Within a closed reef ecosystem, there are 12 species labeled A, B, C, D, E, F, G, H, I, J, K, and L.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- F preys on H.
+- G preys on H.
+- A preys on C.
+- I preys on K.
+- K preys on L.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000197,"Within a closed reef ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on E.
+- E preys on A.
+- F preys on G.
+- G preys on H.
+- H preys on I.
+- I preys on J.
+- J preys on F.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000181,"Within an isolated nutrient-exchange habitat, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J.
+the adult organisms form a directed interaction network.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 2 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- B extracts nutrients from D.
+- F extracts nutrients from H.
+- A extracts nutrients from B.
+- C extracts nutrients from D.
+- G extracts nutrients from I.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000228,"Inside an isolated forest micro-ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not. Decide whether the completion is unique or whether multiple valid completions exist."
+bio_graph_0000133,"Within a closed reef ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- I preys on C.
+- J preys on I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000186,"On an isolated island, there are 5 species labeled A, B, C, D, and E. the adult species participate in a stable predation network. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that C preys on D; A preys on B; D preys on E. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000127,"Within a closed reef ecosystem, there are 9 species labeled A, B, C, D, E, F, G, H, and I. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; H preys on C; I preys on H. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000212,"Inside a sealed toxin-mediated colony, there are 6 strains labeled A, B, C, D, E, and F.
+the strains interact by directed stimulation and suppression signals.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity stimulates exactly 2 distinct others.
+- each entity suppresses exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 2 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X suppresses Y, then Y stimulates X is forbidden.
+
+Observed interactions:
+- A stimulates B.
+- B stimulates C.
+- C suppresses A.
+
+Is there a complete interaction system satisfying all rules and observations? If yes, construct one; if no, explain why not."
+bio_graph_0000194,"On a remote volcanic island, there are 8 species labeled A, B, C, D, E, F, G, and H.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- E preys on F.
+- F preys on G.
+- G preys on H.
+- H preys on E.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000213,"Inside a closed regulatory experiment, there are 10 proteins labeled A, B, C, D, E, F, G, H, I, and J.
+the proteins interact through directed activation and inhibition links.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity activates exactly 3 distinct others.
+- each entity inhibits exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 2 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X inhibits Y, then Y activates X is forbidden.
+
+Observed interactions:
+- A activates B.
+- B activates C.
+- C inhibits A.
+
+Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000224,"Within a laboratory toxin-signaling system, there are 6 strains labeled A, B, C, D, E, and F.
+the colony exhibits both directed stimulation and directed suppression relations.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity stimulates exactly 2 distinct others.
+- each entity suppresses exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 1 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X suppresses Y, then Y stimulates X is forbidden.
+
+Observed interactions:
+- A stimulates B.
+- B stimulates C.
+- C suppresses A.
+
+Is there a complete interaction system satisfying all rules and observations? If yes, construct one; if no, explain why not."
+bio_graph_0000109,"On an isolated island, there are 6 species labeled A, B, C, D, E, and F. the adult species participate in a stable predation network. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 1 others; no species preys on itself. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; E preys on C; F preys on E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000209,"In a synthetic microbial colony, there are 7 species labeled A, B, C, D, E, F, and G. researchers observed two kinds of directed adult-phase signaling: activation and inhibition. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 2 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 1 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden. Observations additionally show that A activates B; B activates C; C inhibits A. Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000211,"In a closed experimental colony, there are 8 species labeled A, B, C, D, E, F, G, and H.
+the mature colony uses exactly two directed signaling modes: activation and inhibition.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity activates exactly 1 distinct others.
+- each entity inhibits exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 1 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X inhibits Y, then Y activates X is forbidden.
+- the combined interaction graph must be strongly connected.
+- every entity must lie on at least one directed cycle in the combined graph.
+- no directed 3-cycle may consist entirely of activation edges.
+
+Observed interactions:
+- A inhibits B.
+- B activates A.
+- A activates C.
+
+Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000227,"In a sealed marsh habitat, there are 6 species labeled A, B, C, D, E, and F.
+biologists recorded a regular feeding network among the adult species.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on E.
+- E preys on F.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not. Also determine whether the completion is unique."
+bio_graph_0000210,"Inside a closed regulatory experiment, there are 10 proteins labeled A, B, C, D, E, F, G, H, I, and J. the system contains both directed activation and directed inhibition effects. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 2 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 2 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden. Observations additionally show that A activates B; B activates C; C inhibits A. Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000195,"Within a closed reef ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- E preys on F.
+- A preys on B.
+- E does not prey on B.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000064,"Within an isolated cave ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- I draws nutrients from C.
+- J draws nutrients from I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000207,"In a synthetic microbial colony, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. researchers observed two kinds of directed adult-phase signaling: activation and inhibition. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 2 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 2 incoming activation links; each entity receives exactly 1 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden; the combined interaction graph must be strongly connected; every entity must lie on at least one directed cycle in the combined graph; no directed 3-cycle may consist entirely of activation edges. Observations additionally show that E activates D; D activates H; J activates I; J inhibits H; E inhibits C. Is there a complete interaction system satisfying all rules and observations? If yes, construct one; if no, explain why not."
+bio_graph_0000005,"Inside a closed nutrient basin, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- I draws nutrients from C.
+- J draws nutrients from I.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000188,"Within a closed reef ecosystem, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+- no directed 3-cycle may appear.
+
+Observed relationships:
+- F preys on G.
+- I preys on A.
+- A preys on B.
+- E preys on F.
+- B does not prey on F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000051,"Inside an isolated forest micro-ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H. biologists recorded a regular feeding network among the adult species. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 3 others; no species preys on itself. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000214,"Inside a closed regulatory experiment, there are 7 proteins labeled A, B, C, D, E, F, and G. biologists model the system using two directed interaction types: activation and inhibition. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 2 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 2 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden. Observations additionally show that A activates B; B activates C; C inhibits A. Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000025,"Within a closed reef ecosystem, there are 6 species labeled A, B, C, D, E, and F.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- E preys on C.
+- F preys on E.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000204,"In a synthetic microbial colony, there are 6 species labeled A, B, C, D, E, and F. adult-phase interactions are of two directed kinds: activation and inhibition. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 3 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 1 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden. Observations additionally show that A activates B; B activates C; C inhibits A. Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000199,"Within a closed reef ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected. Field observations additionally record that F preys on H; G preys on A; C preys on D; E does not prey on H. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000226,"Inside an isolated forest micro-ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on E.
+- E preys on F.
+- F preys on G.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction. Also determine whether the completion is unique."
+bio_graph_0000053,"On an isolated island, there are 6 species labeled A, B, C, D, E, and F.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- E preys on C.
+- F preys on E.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000037,"Within a closed reef ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- G preys on C.
+- H preys on G.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000215,"In a closed microbial suppression experiment, there are 6 strains labeled A, B, C, D, E, and F.
+researchers recorded two directed interaction types: stimulation and suppression.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity stimulates exactly 3 distinct others.
+- each entity suppresses exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 2 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X suppresses Y, then Y stimulates X is forbidden.
+
+Observed interactions:
+- A stimulates B.
+- B stimulates C.
+- C suppresses A.
+
+Determine whether a valid full interaction network exists. If it does, provide one witness. Otherwise, identify the contradiction."
+bio_graph_0000083,"In a controlled ecological chamber, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I.
+the adult organisms form a directed interaction network.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 1 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- H extracts nutrients from C.
+- I extracts nutrients from H.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000115,"On a remote volcanic island, there are 7 species labeled A, B, C, D, E, F, and G.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- F preys on C.
+- G preys on F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000182,"Inside an isolated forest micro-ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- C preys on E.
+- E preys on F.
+- D preys on F.
+- A preys on C.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000201,"In a synthetic protein-regulation assay, there are 8 proteins labeled A, B, C, D, E, F, G, and H.
+the system contains both directed activation and directed inhibition effects.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity activates exactly 3 distinct others.
+- each entity inhibits exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 2 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X inhibits Y, then Y activates X is forbidden.
+
+Observed interactions:
+- A activates B.
+- B activates C.
+- C inhibits A.
+
+Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000223,"In a synthetic protein-regulation assay, there are 10 proteins labeled A, B, C, D, E, F, G, H, I, and J. biologists model the system using two directed interaction types: activation and inhibition. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 2 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 1 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden. Observations additionally show that A activates B; B activates C; C inhibits A. Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000013,"On an isolated island, there are 6 species labeled A, B, C, D, E, and F.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- E preys on C.
+- F preys on E.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000104,"Inside a sealed ecological basin, there are 7 organisms labeled A, B, C, D, E, F, and G. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 2 others; no organism interacts with itself; no directed interaction is reciprocated. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; F extracts nutrients from C; G extracts nutrients from F. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000017,"In a sealed subterranean habitat, there are 7 species labeled A, B, C, D, E, F, and G.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000198,"In a sealed marsh habitat, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- D preys on E.
+- D preys on F.
+- J preys on B.
+- E preys on G.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000124,"Inside a sealed ecological basin, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I.
+field researchers documented a stable directed interaction structure.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 2 distinct others.
+- each organism receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- H extracts nutrients from C.
+- I extracts nutrients from H.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000219,"Inside a sealed toxin-mediated colony, there are 9 strains labeled A, B, C, D, E, F, G, H, and I. the strains interact by directed stimulation and suppression signals. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity stimulates exactly 3 distinct others; each entity suppresses exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 2 incoming inhibition links; no pair of entities may mutually activate one another; if X suppresses Y, then Y stimulates X is forbidden. Observations additionally show that A stimulates B; B stimulates C; C suppresses A. Is there a complete interaction system satisfying all rules and observations? If yes, construct one; if no, explain why not."
+bio_graph_0000200,"Inside a closed regulatory experiment, there are 9 proteins labeled A, B, C, D, E, F, G, H, and I.
+the proteins interact through directed activation and inhibition links.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity activates exactly 3 distinct others.
+- each entity inhibits exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 1 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X inhibits Y, then Y activates X is forbidden.
+
+Observed interactions:
+- A activates B.
+- B activates C.
+- C inhibits A.
+
+Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000230,"In a sealed marsh habitat, there are 8 species labeled A, B, C, D, E, F, G, and H.
+biologists recorded a regular feeding network among the adult species.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction. Decide whether the completion is unique or whether multiple valid completions exist."
+bio_graph_0000229,"On a remote volcanic island, there are 8 species labeled A, B, C, D, E, F, G, and H. biologists recorded a regular feeding network among the adult species. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on E; E preys on F; F preys on G; G preys on H. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction. Also determine whether the completion is unique."
+bio_graph_0000190,"Within a closed reef ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. the adult species participate in a stable predation network. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle; no directed 3-cycle may appear. Field observations additionally record that A preys on B; B preys on C; C preys on A. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000202,"Within a lab-designed signaling network, there are 12 proteins labeled A, B, C, D, E, F, G, H, I, J, K, and L.
+the system contains both directed activation and directed inhibition effects.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity activates exactly 2 distinct others.
+- each entity inhibits exactly 1 distinct others.
+- each entity receives exactly 2 incoming activation links.
+- each entity receives exactly 1 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X inhibits Y, then Y activates X is forbidden.
+- the combined interaction graph must be strongly connected.
+- every entity must lie on at least one directed cycle in the combined graph.
+- no directed 3-cycle may consist entirely of activation edges.
+
+Observed interactions:
+- E activates F.
+- H activates E.
+- J inhibits E.
+- L activates I.
+- I activates J.
+
+Can the observations be extended to a full valid signaling network? Give a construction if possible, or prove impossibility if not."
+bio_graph_0000183,"In a sealed subterranean habitat, there are 11 species labeled A, B, C, D, E, F, G, H, I, J, and K.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- I draws nutrients from K.
+- C draws nutrients from D.
+- G draws nutrients from I.
+- C draws nutrients from E.
+- J draws nutrients from K.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction."
+bio_graph_0000217,"In a synthetic microbial colony, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+researchers observed two kinds of directed adult-phase signaling: activation and inhibition.
+
+Researchers established the following rules:
+- no entity interacts with itself.
+- for any ordered pair, at most one interaction type may occur.
+- each entity activates exactly 2 distinct others.
+- each entity inhibits exactly 1 distinct others.
+- each entity receives exactly 1 incoming activation links.
+- each entity receives exactly 1 incoming inhibition links.
+- no pair of entities may mutually activate one another.
+- if X inhibits Y, then Y activates X is forbidden.
+
+Observed interactions:
+- A activates B.
+- B activates C.
+- C inhibits A.
+
+Determine whether a valid full interaction network exists. If it does, provide one witness. Otherwise, identify the contradiction."
+bio_graph_0000225,"Inside a closed regulatory experiment, there are 8 proteins labeled A, B, C, D, E, F, G, and H. the system contains both directed activation and directed inhibition effects. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity activates exactly 2 distinct others; each entity inhibits exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 2 incoming inhibition links; no pair of entities may mutually activate one another; if X inhibits Y, then Y activates X is forbidden. Observations additionally show that A activates B; B activates C; C inhibits A. Determine whether a valid full interaction network exists. If it does, provide one witness. Otherwise, identify the contradiction."
+bio_graph_0000110,"Within an isolated cave ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 2 distinct others; each specie receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; G draws nutrients from C; H draws nutrients from G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000196,"Within a closed reef ecosystem, there are 12 species labeled A, B, C, D, E, F, G, H, I, J, K, and L. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on E; E preys on F; F preys on A; G preys on H; H preys on I; I preys on J; J preys on K; K preys on L; L preys on G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility."
+bio_graph_0000101,"Within an isolated cave ecosystem, there are 9 species labeled A, B, C, D, E, F, G, H, and I. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 2 distinct others; each specie receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; H draws nutrients from C; I draws nutrients from H. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not."
+bio_graph_0000205,"Inside a sealed toxin-mediated colony, there are 9 strains labeled A, B, C, D, E, F, G, H, and I. the colony exhibits both directed stimulation and directed suppression relations. The system obeys the following rules: no entity interacts with itself; for any ordered pair, at most one interaction type may occur; each entity stimulates exactly 2 distinct others; each entity suppresses exactly 1 distinct others; each entity receives exactly 1 incoming activation links; each entity receives exactly 2 incoming inhibition links; no pair of entities may mutually activate one another; if X suppresses Y, then Y stimulates X is forbidden. Observations additionally show that A stimulates B; B stimulates C; C suppresses A. Is there a complete interaction system satisfying all rules and observations? If yes, construct one; if no, explain why not."

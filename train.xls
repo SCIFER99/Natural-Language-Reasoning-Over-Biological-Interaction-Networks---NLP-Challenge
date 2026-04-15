@@ -1,0 +1,1528 @@
+id,text,target
+bio_graph_0000024,"On a remote volcanic island, there are 7 species labeled A, B, C, D, E, F, and G.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- F preys on C.
+- G preys on F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000108,"Within an isolated nutrient-exchange habitat, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 3 distinct others; each organism receives directed input from exactly 1 others; no organism interacts with itself; no directed interaction is reciprocated; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; I extracts nutrients from C; J extracts nutrients from I. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000057,"In a sealed subterranean habitat, there are 8 species labeled A, B, C, D, E, F, G, and H.
+researchers observed a directed nutrient-dependency network among six to ten species.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- G draws nutrients from C.
+- H draws nutrients from G.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000019,"Within an isolated nutrient-exchange habitat, there are 8 organisms labeled A, B, C, D, E, F, G, and H. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 3 distinct others; each organism receives directed input from exactly 1 others; no organism interacts with itself; no directed interaction is reciprocated; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; G extracts nutrients from C; H extracts nutrients from G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000164,"Inside a sealed ecological basin, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I.
+field researchers documented a stable directed interaction structure.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 2 distinct others.
+- each organism receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- H extracts nutrients from C.
+- I extracts nutrients from H.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000035,"In a sealed marsh habitat, there are 6 species labeled A, B, C, D, E, and F. biologists recorded a regular feeding network among the adult species. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; E preys on C; F preys on E. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000011,"Within an isolated cave ecosystem, there are 7 species labeled A, B, C, D, E, F, and G. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 3 distinct others; each specie receives directed input from exactly 2 others; no organism interacts with itself; no directed interaction is reciprocated; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; F draws nutrients from C; G draws nutrients from F. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000056,"Within an isolated cave ecosystem, there are 7 species labeled A, B, C, D, E, F, and G. biologists modeled the colony as a directed nutrient-flow network. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 2 distinct others; each specie receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; F draws nutrients from C; G draws nutrients from F. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000119,"Within an isolated nutrient-exchange habitat, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 1 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- I extracts nutrients from C.
+- J extracts nutrients from I.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000047,"Within an isolated cave ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- I draws nutrients from C.
+- J draws nutrients from I.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000140,"In a sealed marsh habitat, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- H preys on C.
+- I preys on H.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000098,"On an isolated island, there are 9 species labeled A, B, C, D, E, F, G, H, and I. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 1 others; no species preys on itself. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; H preys on C; I preys on H. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000026,"Within a closed reef ecosystem, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+biologists recorded a regular feeding network among the adult species.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- H preys on C.
+- I preys on H.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000038,"Inside a sealed ecological basin, there are 8 organisms labeled A, B, C, D, E, F, G, and H. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; G extracts nutrients from C; H extracts nutrients from G. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000046,"In a long-observed closed habitat, there are 6 organisms labeled A, B, C, D, E, and F. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 3 distinct others; each organism receives directed input from exactly 1 others; no organism interacts with itself. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; E extracts nutrients from C; F extracts nutrients from E. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000082,"On an isolated island, there are 8 species labeled A, B, C, D, E, F, G, and H. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 3 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000039,"On an isolated island, there are 8 species labeled A, B, C, D, E, F, G, and H.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- G preys on C.
+- H preys on G.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000067,"In a sealed subterranean habitat, there are 7 species labeled A, B, C, D, E, F, and G.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000112,"Within an isolated cave ecosystem, there are 9 species labeled A, B, C, D, E, F, G, H, and I. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 3 distinct others; each specie receives directed input from exactly 2 others; no organism interacts with itself. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; H draws nutrients from C; I draws nutrients from H. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000065,"In a long-observed closed habitat, there are 7 organisms labeled A, B, C, D, E, F, and G.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 2 distinct others.
+- each organism receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- F extracts nutrients from C.
+- G extracts nutrients from F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000163,"Within an isolated nutrient-exchange habitat, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; I extracts nutrients from C; J extracts nutrients from I. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000126,"On a remote volcanic island, there are 8 species labeled A, B, C, D, E, F, G, and H. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 3 others; no species preys on itself; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000085,"In a sealed marsh habitat, there are 7 species labeled A, B, C, D, E, F, and G. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 1 others; no species preys on itself. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; F preys on C; G preys on F. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000034,"Within an isolated cave ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000052,"Inside a closed nutrient basin, there are 7 species labeled A, B, C, D, E, F, and G. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 1 distinct others; each specie receives directed input from exactly 2 others; no organism interacts with itself; no directed interaction is reciprocated; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; F draws nutrients from C; G draws nutrients from F. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000006,"Within an isolated cave ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+researchers observed a directed nutrient-dependency network among six to ten species.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- I draws nutrients from C.
+- J draws nutrients from I.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000072,"Within an isolated nutrient-exchange habitat, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J.
+the adult organisms form a directed interaction network.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- I extracts nutrients from C.
+- J extracts nutrients from I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000033,"In a sealed subterranean habitat, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- H draws nutrients from C.
+- I draws nutrients from H.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000165,"In a sealed subterranean habitat, there are 8 species labeled A, B, C, D, E, F, G, and H. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 3 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; G draws nutrients from C; H draws nutrients from G. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000177,"Inside a closed nutrient basin, there are 9 species labeled A, B, C, D, E, F, G, H, and I. biologists modeled the colony as a directed nutrient-flow network. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 3 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; H draws nutrients from C; I draws nutrients from H. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000099,"Inside a closed nutrient basin, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- H draws nutrients from C.
+- I draws nutrients from H.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000088,"On a remote volcanic island, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+biologists recorded a regular feeding network among the adult species.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- I preys on C.
+- J preys on I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000103,"Within a closed reef ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- F preys on C.
+- G preys on F.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000040,"In a controlled ecological chamber, there are 6 organisms labeled A, B, C, D, E, and F.
+field researchers documented a stable directed interaction structure.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- E extracts nutrients from C.
+- F extracts nutrients from E.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000042,"Within an isolated cave ecosystem, there are 6 species labeled A, B, C, D, E, and F. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 1 distinct others; each specie receives directed input from exactly 2 others; no organism interacts with itself; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; E draws nutrients from C; F draws nutrients from E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000093,"In a long-observed closed habitat, there are 7 organisms labeled A, B, C, D, E, F, and G.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 1 distinct others.
+- each organism receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- F extracts nutrients from C.
+- G extracts nutrients from F.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000023,"In a long-observed closed habitat, there are 8 organisms labeled A, B, C, D, E, F, G, and H. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 1 others; no organism interacts with itself; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; G extracts nutrients from C; H extracts nutrients from G. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000070,"On a remote volcanic island, there are 9 species labeled A, B, C, D, E, F, G, H, and I. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 3 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; H preys on C; I preys on H. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000121,"On a remote volcanic island, there are 6 species labeled A, B, C, D, E, and F. biologists recorded a regular feeding network among the adult species. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 3 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; E preys on C; F preys on E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000001,"Within an isolated nutrient-exchange habitat, there are 8 organisms labeled A, B, C, D, E, F, G, and H.
+field researchers documented a stable directed interaction structure.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- G extracts nutrients from C.
+- H extracts nutrients from G.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000137,"On a remote volcanic island, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. biologists recorded a regular feeding network among the adult species. The system obeys the following rules: each specie preys on exactly 3 distinct others; each specie is targeted by exactly 1 others; no species preys on itself. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; I preys on C; J preys on I. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000141,"Within an isolated cave ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 1 distinct others; each specie receives directed input from exactly 2 others; no organism interacts with itself; no directed interaction is reciprocated; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; I draws nutrients from C; J draws nutrients from I. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000092,"Within an isolated cave ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000167,"In a controlled ecological chamber, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J.
+the adult organisms form a directed interaction network.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 2 distinct others.
+- each organism receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- the full interaction system must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- I extracts nutrients from C.
+- J extracts nutrients from I.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000132,"Within an isolated nutrient-exchange habitat, there are 6 organisms labeled A, B, C, D, E, and F. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; E extracts nutrients from C; F extracts nutrients from E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000156,"Inside a closed nutrient basin, there are 8 species labeled A, B, C, D, E, F, G, and H.
+researchers observed a directed nutrient-dependency network among six to ten species.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- G draws nutrients from C.
+- H draws nutrients from G.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000095,"On an isolated island, there are 6 species labeled A, B, C, D, E, and F. the adult species participate in a stable predation network. The system obeys the following rules: each specie preys on exactly 3 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; E preys on C; F preys on E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000078,"In a long-observed closed habitat, there are 8 organisms labeled A, B, C, D, E, F, G, and H.
+field researchers documented a stable directed interaction structure.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- G extracts nutrients from C.
+- H extracts nutrients from G.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000003,"Inside an isolated forest micro-ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H. biologists recorded a regular feeding network among the adult species. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 3 others; no species preys on itself; no two species prey on each other. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000060,"In a controlled ecological chamber, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; I extracts nutrients from C; J extracts nutrients from I. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000048,"Inside a closed nutrient basin, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- H draws nutrients from C.
+- I draws nutrients from H.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000100,"On an isolated island, there are 9 species labeled A, B, C, D, E, F, G, H, and I. the adult species participate in a stable predation network. The system obeys the following rules: each specie preys on exactly 3 distinct others; each specie is targeted by exactly 1 others; no species preys on itself. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; H preys on C; I preys on H. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000007,"Within an isolated cave ecosystem, there are 6 species labeled A, B, C, D, E, and F.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- E draws nutrients from C.
+- F draws nutrients from E.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000080,"Inside an isolated forest micro-ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+biologists recorded a regular feeding network among the adult species.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- F preys on C.
+- G preys on F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000128,"Within a closed reef ecosystem, there are 6 species labeled A, B, C, D, E, and F.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- E preys on C.
+- F preys on E.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000066,"In a sealed marsh habitat, there are 8 species labeled A, B, C, D, E, F, G, and H. the adult species participate in a stable predation network. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 3 others; no species preys on itself. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000155,"In a sealed subterranean habitat, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+researchers observed a directed nutrient-dependency network among six to ten species.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- I draws nutrients from C.
+- J draws nutrients from I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000171,"Within an isolated nutrient-exchange habitat, there are 6 organisms labeled A, B, C, D, E, and F. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 2 others; no organism interacts with itself; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; E extracts nutrients from C; F extracts nutrients from E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000087,"In a sealed marsh habitat, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- H preys on C.
+- I preys on H.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000071,"Within an isolated nutrient-exchange habitat, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 1 distinct others.
+- each organism receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- I extracts nutrients from C.
+- J extracts nutrients from I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000015,"On a remote volcanic island, there are 9 species labeled A, B, C, D, E, F, G, H, and I. the adult species participate in a stable predation network. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; H preys on C; I preys on H. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000027,"On an isolated island, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- H preys on C.
+- I preys on H.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000008,"In a sealed subterranean habitat, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- H draws nutrients from C.
+- I draws nutrients from H.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000054,"On an isolated island, there are 6 species labeled A, B, C, D, E, and F. biologists recorded a regular feeding network among the adult species. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; E preys on C; F preys on E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000062,"In a sealed subterranean habitat, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- H draws nutrients from C.
+- I draws nutrients from H.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000049,"Inside an isolated forest micro-ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- F preys on C.
+- G preys on F.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000148,"Within a closed reef ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- G preys on C.
+- H preys on G.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000160,"In a sealed marsh habitat, there are 9 species labeled A, B, C, D, E, F, G, H, and I. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 3 others; no species preys on itself. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; H preys on C; I preys on H. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000096,"Inside a closed nutrient basin, there are 9 species labeled A, B, C, D, E, F, G, H, and I. biologists modeled the colony as a directed nutrient-flow network. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 1 distinct others; each specie receives directed input from exactly 3 others; no organism interacts with itself; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; H draws nutrients from C; I draws nutrients from H. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000146,"In a controlled ecological chamber, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; I extracts nutrients from C; J extracts nutrients from I. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000184,"On an isolated island, there are 7 species labeled A, B, C, D, E, F, and G. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; E preys on F; B preys on C. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",1
+bio_graph_0000089,"On an isolated island, there are 7 species labeled A, B, C, D, E, F, and G. biologists recorded a regular feeding network among the adult species. The system obeys the following rules: each specie preys on exactly 3 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; F preys on C; G preys on F. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000130,"In a sealed marsh habitat, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; I preys on C; J preys on I. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000161,"In a sealed marsh habitat, there are 7 species labeled A, B, C, D, E, F, and G.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- F preys on C.
+- G preys on F.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000169,"Inside a closed nutrient basin, there are 6 species labeled A, B, C, D, E, and F.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- E draws nutrients from C.
+- F draws nutrients from E.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000058,"On an isolated island, there are 6 species labeled A, B, C, D, E, and F.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- E preys on C.
+- F preys on E.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000129,"In a controlled ecological chamber, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 1 distinct others.
+- each organism receives directed input from exactly 3 others.
+- no organism interacts with itself.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- I extracts nutrients from C.
+- J extracts nutrients from I.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000175,"Inside a closed nutrient basin, there are 8 species labeled A, B, C, D, E, F, G, and H. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 2 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; G draws nutrients from C; H draws nutrients from G. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000068,"On a remote volcanic island, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 3 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; I preys on C; J preys on I. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000107,"Within an isolated cave ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000152,"Within an isolated nutrient-exchange habitat, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I.
+field researchers documented a stable directed interaction structure.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 1 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- H extracts nutrients from C.
+- I extracts nutrients from H.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000063,"Inside a closed nutrient basin, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- I draws nutrients from C.
+- J draws nutrients from I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000076,"Inside a sealed ecological basin, there are 8 organisms labeled A, B, C, D, E, F, G, and H. the adult organisms form a directed interaction network. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 1 others; no organism interacts with itself; no directed interaction is reciprocated; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; G extracts nutrients from C; H extracts nutrients from G. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000153,"Inside a closed nutrient basin, there are 9 species labeled A, B, C, D, E, F, G, H, and I. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 1 distinct others; each specie receives directed input from exactly 3 others; no organism interacts with itself; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; H draws nutrients from C; I draws nutrients from H. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000154,"Within an isolated cave ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- I draws nutrients from C.
+- J draws nutrients from I.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000179,"Inside a closed nutrient basin, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- I draws nutrients from C.
+- J draws nutrients from I.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000144,"On an isolated island, there are 7 species labeled A, B, C, D, E, F, and G. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 3 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; F preys on C; G preys on F. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000016,"In a controlled ecological chamber, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; H extracts nutrients from C; I extracts nutrients from H. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000029,"On a remote volcanic island, there are 6 species labeled A, B, C, D, E, and F. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; E preys on C; F preys on E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000090,"In a sealed subterranean habitat, there are 8 species labeled A, B, C, D, E, F, G, and H.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- G draws nutrients from C.
+- H draws nutrients from G.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000091,"Within an isolated cave ecosystem, there are 6 species labeled A, B, C, D, E, and F.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- E draws nutrients from C.
+- F draws nutrients from E.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000055,"Inside a sealed ecological basin, there are 7 organisms labeled A, B, C, D, E, F, and G. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 1 others; no organism interacts with itself; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; F extracts nutrients from C; G extracts nutrients from F. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000150,"In a long-observed closed habitat, there are 6 organisms labeled A, B, C, D, E, and F.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 2 distinct others.
+- each organism receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- E extracts nutrients from C.
+- F extracts nutrients from E.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000106,"On an isolated island, there are 6 species labeled A, B, C, D, E, and F.
+biologists recorded a regular feeding network among the adult species.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- E preys on C.
+- F preys on E.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000075,"Within an isolated nutrient-exchange habitat, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I. the adult organisms form a directed interaction network. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; H extracts nutrients from C; I extracts nutrients from H. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000010,"On an isolated island, there are 8 species labeled A, B, C, D, E, F, G, and H. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 1 others; no species preys on itself. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000122,"Inside a closed nutrient basin, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 1 distinct others; each specie receives directed input from exactly 2 others; no organism interacts with itself; no directed interaction is reciprocated; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; I draws nutrients from C; J draws nutrients from I. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000136,"Inside a sealed ecological basin, there are 7 organisms labeled A, B, C, D, E, F, and G.
+field researchers documented a stable directed interaction structure.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 2 distinct others.
+- each organism receives directed input from exactly 3 others.
+- no organism interacts with itself.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- F extracts nutrients from C.
+- G extracts nutrients from F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000118,"Inside a closed nutrient basin, there are 7 species labeled A, B, C, D, E, F, and G.
+researchers observed a directed nutrient-dependency network among six to ten species.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000120,"On an isolated island, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- I preys on C.
+- J preys on I.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000176,"In a sealed marsh habitat, there are 7 species labeled A, B, C, D, E, F, and G. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; F preys on C; G preys on F. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000125,"In a sealed marsh habitat, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. biologists recorded a regular feeding network among the adult species. The system obeys the following rules: each specie preys on exactly 3 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other; the full ecosystem must be strongly connected. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; I preys on C; J preys on I. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000097,"Inside an isolated forest micro-ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 2 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; no two species prey on each other. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000045,"Inside a sealed ecological basin, there are 8 organisms labeled A, B, C, D, E, F, G, and H. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 3 distinct others; each organism receives directed input from exactly 1 others; no organism interacts with itself. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; G extracts nutrients from C; H extracts nutrients from G. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000031,"On an isolated island, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- H preys on C.
+- I preys on H.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000143,"Inside a closed nutrient basin, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+researchers observed a directed nutrient-dependency network among six to ten species.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- I draws nutrients from C.
+- J draws nutrients from I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000018,"On an isolated island, there are 7 species labeled A, B, C, D, E, F, and G.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 2 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- F preys on C.
+- G preys on F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000178,"In a long-observed closed habitat, there are 7 organisms labeled A, B, C, D, E, F, and G. the adult organisms form a directed interaction network. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; F extracts nutrients from C; G extracts nutrients from F. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000113,"Inside a closed nutrient basin, there are 7 species labeled A, B, C, D, E, F, and G. biologists modeled the colony as a directed nutrient-flow network. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 3 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; F draws nutrients from C; G draws nutrients from F. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000044,"In a long-observed closed habitat, there are 6 organisms labeled A, B, C, D, E, and F. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; E extracts nutrients from C; F extracts nutrients from E. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000032,"In a sealed marsh habitat, there are 8 species labeled A, B, C, D, E, F, G, and H.
+biologists recorded a regular feeding network among the adult species.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- G preys on C.
+- H preys on G.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000012,"In a controlled ecological chamber, there are 8 organisms labeled A, B, C, D, E, F, G, and H. the adult organisms form a directed interaction network. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; G extracts nutrients from C; H extracts nutrients from G. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000030,"Inside a sealed ecological basin, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J. the adult organisms form a directed interaction network. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; I extracts nutrients from C; J extracts nutrients from I. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000084,"Within a closed reef ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000077,"On a remote volcanic island, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+- no two species prey on each other.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- I preys on C.
+- J preys on I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000117,"Inside a sealed ecological basin, there are 8 organisms labeled A, B, C, D, E, F, G, and H.
+the adult organisms form a directed interaction network.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- G extracts nutrients from C.
+- H extracts nutrients from G.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000123,"Within an isolated nutrient-exchange habitat, there are 7 organisms labeled A, B, C, D, E, F, and G.
+the adult organisms form a directed interaction network.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- F extracts nutrients from C.
+- G extracts nutrients from F.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000138,"In a controlled ecological chamber, there are 6 organisms labeled A, B, C, D, E, and F.
+field researchers documented a stable directed interaction structure.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- E extracts nutrients from C.
+- F extracts nutrients from E.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000145,"On a remote volcanic island, there are 6 species labeled A, B, C, D, E, and F. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 3 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; E preys on C; F preys on E. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000059,"In a controlled ecological chamber, there are 8 organisms labeled A, B, C, D, E, F, G, and H. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 2 others; no organism interacts with itself; no directed interaction is reciprocated; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; G extracts nutrients from C; H extracts nutrients from G. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000111,"Within an isolated cave ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. biologists modeled the colony as a directed nutrient-flow network. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 2 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; I draws nutrients from C; J draws nutrients from I. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000020,"In a controlled ecological chamber, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- I extracts nutrients from C.
+- J extracts nutrients from I.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000073,"In a long-observed closed habitat, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 1 distinct others.
+- each organism receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- I extracts nutrients from C.
+- J extracts nutrients from I.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000041,"On a remote volcanic island, there are 6 species labeled A, B, C, D, E, and F.
+the adult species participate in a stable predation network.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- E preys on C.
+- F preys on E.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000074,"Inside an isolated forest micro-ecosystem, there are 9 species labeled A, B, C, D, E, F, G, H, and I. adult species form a directed feeding network. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; H preys on C; I preys on H. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000147,"Inside an isolated forest micro-ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H. the mature species interact through recurring predation links. The system obeys the following rules: each specie preys on exactly 3 distinct others; each specie is targeted by exactly 1 others; no species preys on itself; the full ecosystem must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000168,"Within an isolated cave ecosystem, there are 6 species labeled A, B, C, D, E, and F. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 2 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; E draws nutrients from C; F draws nutrients from E. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000114,"In a controlled ecological chamber, there are 6 organisms labeled A, B, C, D, E, and F. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; E extracts nutrients from C; F extracts nutrients from E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000094,"Inside a closed nutrient basin, there are 7 species labeled A, B, C, D, E, F, and G.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000009,"Inside a closed nutrient basin, there are 8 species labeled A, B, C, D, E, F, G, and H. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 3 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself; no directed interaction is reciprocated. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; G draws nutrients from C; H draws nutrients from G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000004,"Within an isolated cave ecosystem, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 2 distinct others; each specie receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; I draws nutrients from C; J draws nutrients from I. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000050,"Inside a closed nutrient basin, there are 6 species labeled A, B, C, D, E, and F. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 1 distinct others; each specie receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; E draws nutrients from C; F draws nutrients from E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000079,"Inside an isolated forest micro-ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 1 distinct others.
+- each specie is targeted by exactly 3 others.
+- no species preys on itself.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- F preys on C.
+- G preys on F.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000170,"Within an isolated cave ecosystem, there are 8 species labeled A, B, C, D, E, F, G, and H. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 3 distinct others; each specie receives directed input from exactly 2 others; no organism interacts with itself; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; G draws nutrients from C; H draws nutrients from G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000173,"Inside a closed nutrient basin, there are 7 species labeled A, B, C, D, E, F, and G. biologists modeled the colony as a directed nutrient-flow network. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 3 distinct others; each specie receives directed input from exactly 2 others; no organism interacts with itself; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; F draws nutrients from C; G draws nutrients from F. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000043,"In a controlled ecological chamber, there are 6 organisms labeled A, B, C, D, E, and F. the adult organisms form a directed interaction network. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; E extracts nutrients from C; F extracts nutrients from E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000157,"Inside a closed nutrient basin, there are 7 species labeled A, B, C, D, E, F, and G.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000174,"On an isolated island, there are 10 species labeled A, B, C, D, E, F, G, H, I, and J.
+adult species form a directed feeding network.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 2 others.
+- no species preys on itself.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- I preys on C.
+- J preys on I.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000036,"Inside a closed nutrient basin, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- H draws nutrients from C.
+- I draws nutrients from H.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000131,"Within a closed reef ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+the mature species interact through recurring predation links.
+
+Biologists established the following rules:
+- each specie preys on exactly 3 distinct others.
+- each specie is targeted by exactly 1 others.
+- no species preys on itself.
+- no two species prey on each other.
+- the full ecosystem must be strongly connected.
+
+Observed relationships:
+- A preys on B.
+- B preys on C.
+- C preys on D.
+- D preys on A.
+- F preys on C.
+- G preys on F.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000061,"Inside a closed nutrient basin, there are 7 species labeled A, B, C, D, E, F, and G.
+researchers observed a directed nutrient-dependency network among six to ten species.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000002,"Within an isolated nutrient-exchange habitat, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I.
+field researchers documented a stable directed interaction structure.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- H extracts nutrients from C.
+- I extracts nutrients from H.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000014,"Within an isolated cave ecosystem, there are 6 species labeled A, B, C, D, E, and F.
+the adult population participates in a closed nutrient-exchange structure.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- E draws nutrients from C.
+- F draws nutrients from E.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000069,"In a long-observed closed habitat, there are 6 organisms labeled A, B, C, D, E, and F.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 2 others.
+- no organism interacts with itself.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- E extracts nutrients from C.
+- F extracts nutrients from E.
+
+Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000158,"Inside a sealed ecological basin, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I. the adult organisms form a directed interaction network. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 2 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; H extracts nutrients from C; I extracts nutrients from H. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000159,"Within an isolated cave ecosystem, there are 7 species labeled A, B, C, D, E, F, and G.
+researchers observed a directed nutrient-dependency network among six to ten species.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 1 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- F draws nutrients from C.
+- G draws nutrients from F.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000081,"Within an isolated nutrient-exchange habitat, there are 8 organisms labeled A, B, C, D, E, F, G, and H. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 2 others; no organism interacts with itself; no directed interaction is reciprocated. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; G extracts nutrients from C; H extracts nutrients from G. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000102,"In a long-observed closed habitat, there are 7 organisms labeled A, B, C, D, E, F, and G. field researchers documented a stable directed interaction structure. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; F extracts nutrients from C; G extracts nutrients from F. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000086,"Within an isolated nutrient-exchange habitat, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 1 distinct others; each organism receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; H extracts nutrients from C; I extracts nutrients from H. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000134,"In a sealed subterranean habitat, there are 6 species labeled A, B, C, D, E, and F. researchers observed a directed nutrient-dependency network among six to ten species. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 1 distinct others; each specie receives directed input from exactly 2 others; no organism interacts with itself. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; E draws nutrients from C; F draws nutrients from E. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000105,"Within an isolated nutrient-exchange habitat, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J. the adult organisms form a directed interaction network. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 3 distinct others; each organism receives directed input from exactly 2 others; no organism interacts with itself; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; I extracts nutrients from C; J extracts nutrients from I. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000028,"Within an isolated cave ecosystem, there are 6 species labeled A, B, C, D, E, and F. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 1 distinct others; each specie receives directed input from exactly 3 others; no organism interacts with itself; no directed interaction is reciprocated; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; E draws nutrients from C; F draws nutrients from E. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000149,"Within an isolated nutrient-exchange habitat, there are 10 organisms labeled A, B, C, D, E, F, G, H, I, and J.
+the mature organisms participate in a directed nutrient-flow system.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 1 distinct others.
+- each organism receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- the full interaction system must be strongly connected.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- I extracts nutrients from C.
+- J extracts nutrients from I.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000021,"Inside a closed nutrient basin, there are 9 species labeled A, B, C, D, E, F, G, H, and I. biologists modeled the colony as a directed nutrient-flow network. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 2 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself; no directed interaction is reciprocated; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; H draws nutrients from C; I draws nutrients from H. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000162,"Inside a closed nutrient basin, there are 9 species labeled A, B, C, D, E, F, G, H, and I.
+biologists modeled the colony as a directed nutrient-flow network.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 3 distinct others.
+- each specie receives directed input from exactly 2 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- H draws nutrients from C.
+- I draws nutrients from H.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000022,"In a controlled ecological chamber, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I.
+the adult organisms form a directed interaction network.
+
+Biologists established the following rules:
+- each organism has directed outgoing interactions toward exactly 3 distinct others.
+- each organism receives directed input from exactly 1 others.
+- no organism interacts with itself.
+- no directed interaction is reciprocated.
+
+Observed relationships:
+- A extracts nutrients from B.
+- B extracts nutrients from C.
+- C extracts nutrients from D.
+- D extracts nutrients from A.
+- H extracts nutrients from C.
+- I extracts nutrients from H.
+
+Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000180,"In a sealed subterranean habitat, there are 8 species labeled A, B, C, D, E, F, G, and H.
+researchers observed a directed nutrient-dependency network among six to ten species.
+
+Biologists established the following rules:
+- each specie has directed outgoing interactions toward exactly 2 distinct others.
+- each specie receives directed input from exactly 3 others.
+- no organism interacts with itself.
+- the full nutrient network must be strongly connected.
+- every species must lie on at least one directed cycle.
+
+Observed relationships:
+- A draws nutrients from B.
+- B draws nutrients from C.
+- C draws nutrients from D.
+- D draws nutrients from A.
+- G draws nutrients from C.
+- H draws nutrients from G.
+
+Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000151,"Within an isolated cave ecosystem, there are 6 species labeled A, B, C, D, E, and F. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 2 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself; the full nutrient network must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; E draws nutrients from C; F draws nutrients from E. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000172,"Inside a closed nutrient basin, there are 6 species labeled A, B, C, D, E, and F. the adult population participates in a closed nutrient-exchange structure. The system obeys the following rules: each specie has directed outgoing interactions toward exactly 3 distinct others; each specie receives directed input from exactly 1 others; no organism interacts with itself; the full nutrient network must be strongly connected. Field observations additionally record that A draws nutrients from B; B draws nutrients from C; C draws nutrients from D; D draws nutrients from A; E draws nutrients from C; F draws nutrients from E. Can the partial observations be extended to a full valid system? Give a witness if possible, otherwise prove impossibility.",0
+bio_graph_0000166,"Within an isolated nutrient-exchange habitat, there are 9 organisms labeled A, B, C, D, E, F, G, H, and I. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 3 distinct others; each organism receives directed input from exactly 2 others; no organism interacts with itself; the full interaction system must be strongly connected. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; H extracts nutrients from C; I extracts nutrients from H. Determine whether a valid completion exists. If it does, provide one valid completion. If it does not, identify the contradiction.",0
+bio_graph_0000139,"Within an isolated nutrient-exchange habitat, there are 8 organisms labeled A, B, C, D, E, F, G, and H. the mature organisms participate in a directed nutrient-flow system. The system obeys the following rules: each organism has directed outgoing interactions toward exactly 3 distinct others; each organism receives directed input from exactly 2 others; no organism interacts with itself; the full interaction system must be strongly connected; every species must lie on at least one directed cycle. Field observations additionally record that A extracts nutrients from B; B extracts nutrients from C; C extracts nutrients from D; D extracts nutrients from A; G extracts nutrients from C; H extracts nutrients from G. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
+bio_graph_0000116,"On a remote volcanic island, there are 8 species labeled A, B, C, D, E, F, G, and H. the adult species participate in a stable predation network. The system obeys the following rules: each specie preys on exactly 1 distinct others; each specie is targeted by exactly 2 others; no species preys on itself; the full ecosystem must be strongly connected. Field observations additionally record that A preys on B; B preys on C; C preys on D; D preys on A; G preys on C; H preys on G. Is a full interaction network satisfying all rules possible? If yes, construct one. If no, explain why not.",0
